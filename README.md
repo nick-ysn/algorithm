@@ -3,3 +3,4 @@
 
 插入排序: InsertionSort
 归并排序: MergeSort
+堆排序:  HeapSort
