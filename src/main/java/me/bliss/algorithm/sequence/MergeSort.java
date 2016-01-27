@@ -1,7 +1,7 @@
 package me.bliss.algorithm.sequence;
 
 /**
- * ¹é²¢ÅÅĞò
+ * å½’å¹¶æ’åº
  *
  * @author lanjue
  * @version $Id: me.bliss.algorithm.sequence, v 0.1 5/9/15
@@ -13,18 +13,18 @@ public class MergeSort {
 
         int leftIndex = start;
         int rightIndex = mid + 1;
-        //×ó±ßÊı×é³¤¶È
+        //å·¦è¾¹æ•°ç»„é•¿åº¦
         int leftLength = mid - start + 1;
         int rightLength = end - mid;
 
         final int[] leftArray = new int[leftLength];
         final int[] rightArray = new int[rightLength];
 
-        //¿½±´×ó±ßÊı×é
+        //æ‹·è´å·¦è¾¹æ•°ç»„
         for (int i = 0; i < leftLength; i++) {
             leftArray[i] = data[leftIndex + i];
         }
-        //¿½±´ÓÒ±ßÊı×é
+        //æ‹·è´å³è¾¹æ•°ç»„
         for (int i = 0; i < rightLength; i++) {
             rightArray[i] = data[rightIndex + i];
         }

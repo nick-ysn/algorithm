@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 /**
  *
- * ²åÈëÅÅĞò
+ * æ’å…¥æ’åº
  * @author lanjue
  * @version $Id: me.bliss.algorithm.sequence, v 0.1 5/9/15
  *          Exp $

@@ -1,7 +1,7 @@
 package me.bliss.algorithm.sequence;
 
 /**
- *  ¶ÑÅÅÐò
+ *  å †æŽ’åº
  *
  * @author lanjue
  * @version $Id: me.bliss.algorithm.sequence, v 0.1 6/13/15
@@ -9,7 +9,7 @@ package me.bliss.algorithm.sequence;
  */
 public class HeapSort {
 
-    //Î¬»¤×î´ó¶Ñ
+    //ç»´æŠ¤æœ€å¤§å †
     private void maxHeap(int[] a, int i, int heapSize) {
         int left = 2 * i + 1;
         int right = 2 * i + 2;
@@ -28,7 +28,7 @@ public class HeapSort {
         }
     }
 
-    //¹¹Ôì×î´ó¶Ñ
+    //æž„é€ æœ€å¤§å †
     private void buildMaxHeap(int[] a) {
         for (int i = (int) Math.floor((a.length - 1) / 2); i >= 0; i--) {
             maxHeap(a, i, a.length);
